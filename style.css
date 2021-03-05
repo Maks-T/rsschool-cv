@@ -1,0 +1,129 @@
+
+
+#page {
+  
+   max-width: 920px;
+   margin: 0 auto;
+   background-color: #f1f1f1;
+   border:  1px solid rgb(173, 173, 173);  
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+body {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: Verdana, arial, sans-serif;
+    
+}
+header {
+   margin-top: 10px;;
+   background-color: #000000;
+   /*background: linear-gradient(to right, #1b1a1aec, #e2e2e2)*/;
+   padding-left: 15px;
+   display: flex;
+   align-items: flex-start;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   
+}
+blockquote {
+   /*color: #263347;*/   
+   font-weight: 500;
+   border-left: 0.25em solid #5e5d5d;
+   padding-left: 20px;
+   background-color: #fcfcf7;
+   padding: 5px 5px 5px 10px;
+}
+p  {
+	
+
+}
+h1 {
+   color: white;
+	margin: 10px 0px 0px 30px;  
+   padding: 5px 15px 5px 15px; 
+   text-shadow: 1px 1px 0 gray;
+   border: 2px solid white;
+   
+}
+h2 {
+   color: #ffffff;
+    border-bottom: 1px solid #969696;
+    margin-left: 20px;
+    margin-right: 20px;   
+    padding-bottom: 5px;
+    background-color: #000000;
+    padding: 5px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#avatar-wrap {
+   background-color: #f1f1f1;
+   border-left:  1px solid gray;
+   border-right:  1px solid gray;  
+}
+#avatar {
+   width:100px; 
+   margin: 15px;
+   border-radius: 10%;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+   border: 3px solid white;
+}
+
+#contacts {
+   font-weight: 600; 
+}
+a{
+   color: #000000;
+   text-decoration: underline;
+   
+}
+
+footer {
+   background-color: gray;
+   padding: 15px;
+   border-top: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   margin-bottom: 20px;
+   font-weight: 700;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   font-size: 80%;
+}
+
+footer img {
+  width : 32px;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+time {
+  
+  
+	margin-left: 20px;  
+
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   float: left;
+   padding: 0 10px 0 10px ;
+   margin: 0 10px 0 10px ;
+}
+
+
+footer a {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   float: left;
+   padding: 0 10px 0 10px ;
+   margin: 0 10px 0 10px ;
+ 
+   border-left: solid 1px #000000;
+   text-decoration: underline;
+   
+}
+
